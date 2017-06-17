@@ -30,10 +30,10 @@
 						<a href="#" class="btn btn-link" translate="BTN_LOGIN">Войти</a>
 						<a href="#" class="btn btn-default btn-sm hidden-xs" translate="BTN_TITLE">попробовать бесплатно</a>
 						<div id="dropdown" class="dropdown">
-							<a href="" class="btn btn-link dropdown-link">RU <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+							<a href="" class="btn btn-link dropdown-link" #dropDown>RU <i class="fa fa-angle-down" aria-hidden="true"></i></a>
 							<ul class="dropdown-menu">
-								<li><a href="#">RU</a></li>
-								<li><a href="#">EN</a></li>
+								<li><a langBtn="ru" href="#">RU</a></li>
+								<li><a langBtn="en" href="#">EN</a></li>
 							</ul>
 						</div>
 					</div>
@@ -540,6 +540,9 @@
 		</div>
 	</div>
 	<div class="modal-backdrop fade"></div>
+	<script type="text/javascript" src="src/i18n/js/en.js"></script>
+	<script type="text/javascript" src="src/i18n/js/ru.js"></script>
+	<script type="text/javascript" src="src/js/translate.js"></script>
 	<script type="text/javascript" src="src/js/app.js"></script>
 </body>
 </html>
