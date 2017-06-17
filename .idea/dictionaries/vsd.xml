@@ -3,6 +3,7 @@
     <words>
       <w>btns</w>
       <w>elems</w>
+      <w>onreadystatechange</w>
     </words>
   </dictionary>
 </component>

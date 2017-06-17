@@ -1,5 +1,5 @@
 (function () {
-    var dropDown = document.getElementById('dropDown');
+    var currentLangBtn = document.getElementById("currentLang");
     var langBtns = document.querySelectorAll('[langBtn]');
     langBtns.forEach(function (btn) {
         btn.onclick = changeLang;
@@ -29,7 +29,9 @@
     }
 
     function changeLang(e) {
-        toTranslate(e.target.getAttribute('langBtn'));
+        var lang = e.target.getAttribute('langBtn');
+        toTranslate(lang);
+        currentLangBtn.innerHTML = lang.toUpperCase() + ' ';
     }
 
     function getTranslateJSON(lang) {

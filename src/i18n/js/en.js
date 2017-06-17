@@ -31,7 +31,7 @@ var LANG_EN = {
 		"STEP1": "Install on your<br>website",
 		"BTN1": "Install",
 		"STEP2": "Process<br>the entries",
-		"BTN2": "ПОПРОБОВАТЬ",
+		"BTN2": "Try it now",
 		"STEP3": "Calculate<br>the profit",
 	},
 	"AUTOMATION": {
@@ -73,7 +73,7 @@ var LANG_EN = {
 	},
 	"APP": {
 		"TITLE": "Keep a check on your business!",
-		"SUBTITLE": "Awix is your reliable partner! TA mobile app for you, your employees and clients!"
+		"SUBTITLE": "Awix is your reliable partner! Mobile app for you, your employees and clients!"
 	},
 	"RATES": {
 		"TITLE": "Fees",
